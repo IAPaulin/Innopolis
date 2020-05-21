@@ -1,0 +1,39 @@
+2018-10-27 23:54:49,092[ISO8601] [INFO ] [main ] [WorkCollections]:56 - В коллекцию были добавлены элементы
+2018-10-27 23:54:49,097[ISO8601] [INFO ] [main ] [WorkCollections]:58 - bort
+2018-10-27 23:54:49,098[ISO8601] [INFO ] [main ] [WorkCollections]:58 - !
+2018-10-27 23:54:49,098[ISO8601] [INFO ] [main ] [WorkCollections]:58 - bar
+2018-10-27 23:54:49,101[ISO8601] [INFO ] [main ] [WorkCollections]:58 - fork
+2018-10-27 23:54:49,101[ISO8601] [INFO ] [main ] [WorkCollections]:58 - foo
+2018-10-27 23:54:49,101[ISO8601] [INFO ] [main ] [WorkCollections]:58 - spoon
+2018-10-27 23:54:49,101[ISO8601] [INFO ] [main ] [WorkCollections]:58 - buzz
+2018-10-27 23:54:49,101[ISO8601] [INFO ] [main ] [WorkCollections]:58 - dude
+2018-10-27 23:54:49,101[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,102[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,102[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,102[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,104[ISO8601] [INFO ] [main ] [WorkCollections]:56 - В коллекцию были добавлены элементы
+2018-10-27 23:54:49,104[ISO8601] [INFO ] [main ] [WorkCollections]:58 - !
+2018-10-27 23:54:49,105[ISO8601] [INFO ] [main ] [WorkCollections]:58 - bar
+2018-10-27 23:54:49,107[ISO8601] [INFO ] [main ] [WorkCollections]:58 - bort
+2018-10-27 23:54:49,107[ISO8601] [INFO ] [main ] [WorkCollections]:58 - buzz
+2018-10-27 23:54:49,107[ISO8601] [INFO ] [main ] [WorkCollections]:58 - dude
+2018-10-27 23:54:49,108[ISO8601] [INFO ] [main ] [WorkCollections]:58 - foo
+2018-10-27 23:54:49,108[ISO8601] [INFO ] [main ] [WorkCollections]:58 - fork
+2018-10-27 23:54:49,108[ISO8601] [INFO ] [main ] [WorkCollections]:58 - spoon
+2018-10-27 23:54:49,108[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,108[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,108[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,108[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,111[ISO8601] [INFO ] [main ] [WorkCollections]:56 - В коллекцию были добавлены элементы
+2018-10-27 23:54:49,111[ISO8601] [INFO ] [main ] [WorkCollections]:58 - foo
+2018-10-27 23:54:49,111[ISO8601] [INFO ] [main ] [WorkCollections]:58 - buzz
+2018-10-27 23:54:49,111[ISO8601] [INFO ] [main ] [WorkCollections]:58 - bar
+2018-10-27 23:54:49,111[ISO8601] [INFO ] [main ] [WorkCollections]:58 - fork
+2018-10-27 23:54:49,112[ISO8601] [INFO ] [main ] [WorkCollections]:58 - bort
+2018-10-27 23:54:49,112[ISO8601] [INFO ] [main ] [WorkCollections]:58 - spoon
+2018-10-27 23:54:49,112[ISO8601] [INFO ] [main ] [WorkCollections]:58 - !
+2018-10-27 23:54:49,112[ISO8601] [INFO ] [main ] [WorkCollections]:58 - dude
+2018-10-27 23:54:49,112[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,112[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,112[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
+2018-10-27 23:54:49,113[ISO8601] [INFO ] [main ] [WorkCollections]:31 - Элемент удален
