@@ -1,0 +1,31 @@
+package ruinnopolisdemo;
+
+import ruinnopolis.ruinnopolisdemo.ruinnopolistest.Person;
+
+public class Main {
+
+    int age = 0;   //поле класса
+
+
+    static int sum(int a, int b) {
+
+        int x = 0;
+        x = a + b;
+        return x;
+    }
+
+    public static void main(String[] args) {
+
+        System.out.println(sum(4, 8));
+
+
+        Demo demo = new Demo();
+        demo.say();
+
+
+        System.out.println(args[0]);
+
+
+    }
+
+}
