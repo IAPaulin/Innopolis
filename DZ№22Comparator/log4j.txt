@@ -1,0 +1,59 @@
+2018-10-17 14:49:51,959[ISO8601] [INFO ] [main ] [DZ.MyCollection]:17 - Город в безопсности, детективы трудоустроены
+2018-10-17 14:49:51,964[ISO8601] [INFO ] [main ] [DZ.MyCollection]:36 - Штат сотрудников
+2018-10-17 14:49:51,964[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Holms', age=52}
+2018-10-17 14:49:51,964[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Puaro', age=32}
+2018-10-17 14:49:51,965[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=29}
+2018-10-17 14:49:51,965[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Fandorin', age=27}
+2018-10-17 14:49:51,969[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=32}
+2018-10-17 14:49:51,969[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=32}
+2018-10-17 14:49:51,969[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Chekist', age=82}
+2018-10-17 14:49:51,969[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Puaro', age=35}
+2018-10-17 14:49:51,971[ISO8601] [INFO ] [main ] [DZ.MyCollection]:36 - Штат сотрудников
+2018-10-17 14:49:51,971[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Chekist', age=82}
+2018-10-17 14:49:51,971[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Fandorin', age=27}
+2018-10-17 14:49:51,971[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Holms', age=52}
+2018-10-17 14:49:51,972[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=29}
+2018-10-17 14:49:51,972[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=32}
+2018-10-17 14:49:51,975[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=32}
+2018-10-17 14:49:51,976[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Puaro', age=32}
+2018-10-17 14:49:51,976[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Puaro', age=35}
+2018-10-17 14:49:51,976[ISO8601] [WARN ] [main ] [DZ.MyCollection]:54 - Образование преступного синдиката, город в опасности
+2018-10-17 14:49:51,977[ISO8601] [INFO ] [main ] [DZ.MyCollection]:36 - Штат сотрудников
+2018-10-17 14:49:51,978[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Moriarti', age=45, numberCrime=998}
+2018-10-17 14:49:51,978[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Moriarti', age=44, numberCrime=8}
+2018-10-17 14:49:51,978[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Korleone', age=57, numberCrime=72}
+2018-10-17 14:49:51,978[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Jan-Batist', age=26, numberCrime=131}
+2018-10-17 14:49:51,979[ISO8601] [INFO ] [main ] [DZ.MyCollection]:36 - Штат сотрудников
+2018-10-17 14:49:51,982[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Jan-Batist', age=26, numberCrime=131}
+2018-10-17 14:49:51,982[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Korleone', age=57, numberCrime=72}
+2018-10-17 14:49:51,982[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Moriarti', age=45, numberCrime=998}
+2018-10-17 14:49:51,983[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Moriarti', age=44, numberCrime=8}
+2018-10-17 14:49:51,983[ISO8601] [INFO ] [main ] [DZ.MyCollection]:36 - Штат сотрудников
+2018-10-17 14:49:51,984[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Jan-Batist', age=26, numberCrime=131}
+2018-10-17 14:49:51,984[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Korleone', age=57, numberCrime=72}
+2018-10-17 14:49:51,984[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Moriarti', age=45, numberCrime=998}
+2018-10-17 14:49:51,984[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Moriarti', age=44, numberCrime=8}
+2018-10-17 14:49:51,985[ISO8601] [INFO ] [main ] [DZ.MyCollection]:36 - Штат сотрудников
+2018-10-17 14:49:51,986[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Moriarti', age=44, numberCrime=8}
+2018-10-17 14:49:51,986[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Korleone', age=57, numberCrime=72}
+2018-10-17 14:49:51,986[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Jan-Batist', age=26, numberCrime=131}
+2018-10-17 14:49:51,986[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - Experiment.Criminal{name='Moriarti', age=45, numberCrime=998}
+2018-10-17 14:50:19,921[ISO8601] [INFO ] [main ] [DZ.MyCollection]:17 - Город в безопсности, детективы трудоустроены
+2018-10-17 14:50:19,926[ISO8601] [INFO ] [main ] [DZ.MyCollection]:36 - Штат сотрудников
+2018-10-17 14:50:19,926[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Holms', age=52}
+2018-10-17 14:50:19,926[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Puaro', age=32}
+2018-10-17 14:50:19,926[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=29}
+2018-10-17 14:50:19,926[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Fandorin', age=27}
+2018-10-17 14:50:19,930[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=32}
+2018-10-17 14:50:19,931[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=32}
+2018-10-17 14:50:19,931[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Chekist', age=82}
+2018-10-17 14:50:19,931[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Puaro', age=35}
+2018-10-17 14:50:19,932[ISO8601] [INFO ] [main ] [DZ.MyCollection]:36 - Штат сотрудников
+2018-10-17 14:50:19,932[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Chekist', age=82}
+2018-10-17 14:50:19,932[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Fandorin', age=27}
+2018-10-17 14:50:19,932[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Holms', age=52}
+2018-10-17 14:50:19,932[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=29}
+2018-10-17 14:50:19,933[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=32}
+2018-10-17 14:50:19,935[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Marpl', age=32}
+2018-10-17 14:50:19,935[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Puaro', age=32}
+2018-10-17 14:50:19,935[ISO8601] [INFO ] [main ] [DZ.MyCollection]:45 - DZ.Person{name='Puaro', age=35}
