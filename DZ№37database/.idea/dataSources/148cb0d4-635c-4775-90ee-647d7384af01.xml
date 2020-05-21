@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="postgres@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.10">
+    <root id="1">
+      <ServerVersion>9.6.10</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="postgres">
+      <ObjectId>12441</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>106</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <role id="3" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="4" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <schema id="5" parent="2" name="information_schema">
+      <ObjectId>12153</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="6" parent="2" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="7" parent="2" name="pg_temp_1">
+      <ObjectId>11848</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="8" parent="2" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="9" parent="2" name="pg_toast_temp_1">
+      <ObjectId>11849</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="10" parent="2" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <Owner>postgres</Owner>
+      <IntrospectionTimestamp>2018-11-21.12:05:44.053</IntrospectionTimestamp>
+      <IntrospectionStateNumber>596</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="11" parent="2" name="taxi">
+      <ObjectId>16411</ObjectId>
+      <Owner>postgres</Owner>
+      <IntrospectionTimestamp>2018-11-21.15:21:41.859</IntrospectionTimestamp>
+      <IntrospectionStateNumber>607</IntrospectionStateNumber>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="12" parent="2" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="13" parent="2" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="14" parent="2" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="15" parent="2" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="16" parent="2" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="17" parent="2" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <table id="18" parent="10" name="animals">
+      <ObjectId>16393</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>590</StateNumber>
+    </table>
+    <table id="19" parent="10" name="equipment">
+      <ObjectId>16406</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>594</StateNumber>
+    </table>
+    <table id="20" parent="10" name="experience">
+      <ObjectId>16401</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>593</StateNumber>
+    </table>
+    <table id="21" parent="10" name="vanguard">
+      <ObjectId>16396</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>592</StateNumber>
+    </table>
+    <sequence id="22" parent="11" name="client_id_seq">
+      <ObjectId>16412</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>598</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="23" parent="11" name="event_id_seq">
+      <ObjectId>16429</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>603</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <sequence id="24" parent="11" name="magazine_id ev_seq">
+      <ObjectId>16445</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>606</StateNumber>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>1</CacheSize>
+    </sequence>
+    <table id="25" parent="11" name="car">
+      <ObjectId>16423</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>606</StateNumber>
+    </table>
+    <table id="26" parent="11" name="client">
+      <ObjectId>16416</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>606</StateNumber>
+    </table>
+    <table id="27" parent="11" name="event">
+      <ObjectId>16431</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>606</StateNumber>
+    </table>
+    <table id="28" parent="11" name="magazine">
+      <ObjectId>16447</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>606</StateNumber>
+    </table>
+    <column id="29" parent="18" name="type ">
+      <Position>1</Position>
+      <DataType>varchar(255)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>590</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="30" parent="18" name="age">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>590</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="31" parent="19" name="id(hash code)eq">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>596</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="32" parent="19" name="date">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>594</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="33" parent="19" name="device plug-ins">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <StateNumber>594</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="34" parent="19" name="equipment_pk">
+      <ObjectId>16409</ObjectId>
+      <ColNames>id(hash code)eq
+date</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="35" parent="19" name="equipment_pk">
+      <ObjectId>16410</ObjectId>
+      <ColNames>id(hash code)eq
+date</ColNames>
+      <UnderlyingIndexName>equipment_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="36" parent="20" name="id(hash code)ex">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>595</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="37" parent="20" name="date">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>593</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="38" parent="20" name="fighting experience">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <StateNumber>593</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="39" parent="20" name="experience_pk">
+      <ObjectId>16404</ObjectId>
+      <ColNames>id(hash code)ex
+date</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="20" name="experience_pk">
+      <ObjectId>16405</ObjectId>
+      <ColNames>id(hash code)ex
+date</ColNames>
+      <UnderlyingIndexName>experience_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="21" name="id(hash code)">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>592</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="42" parent="21" name="model">
+      <Position>2</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <StateNumber>592</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="43" parent="21" name="type">
+      <Position>3</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <StateNumber>592</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="44" parent="21" name="vanguard_pkey">
+      <ObjectId>16399</ObjectId>
+      <ColNames>id(hash code)</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="45" parent="21" name="vanguard_pkey">
+      <ObjectId>16400</ObjectId>
+      <ColNames>id(hash code)</ColNames>
+      <UnderlyingIndexName>vanguard_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="46" parent="25" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>601</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="47" parent="25" name="car">
+      <Position>2</Position>
+      <DataType>varchar(10)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>605</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="48" parent="25" name="car_id_uindex">
+      <ObjectId>16428</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="49" parent="25" name="car_pkey">
+      <ObjectId>16426</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="50" parent="25" name="car_pkey">
+      <ObjectId>16427</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>car_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="51" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>598</StateNumber>
+      <DefaultExpression>nextval(&apos;taxi.client_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>taxi.client_id_seq</SequenceName>
+    </column>
+    <column id="52" parent="26" name=" full_name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>598</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="53" parent="26" name="client_id_uindex">
+      <ObjectId>16422</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="54" parent="26" name="client_pkey">
+      <ObjectId>16420</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="26" name="client_pkey">
+      <ObjectId>16421</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>client_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="56" parent="27" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>603</StateNumber>
+      <DefaultExpression>nextval(&apos;taxi.event_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>taxi.event_id_seq</SequenceName>
+    </column>
+    <column id="57" parent="27" name="date">
+      <Position>2</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>603</StateNumber>
+      <DefaultExpression>(&apos;now&apos;::text)::date</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="58" parent="27" name="time">
+      <Position>3</Position>
+      <DataType>time|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>603</StateNumber>
+      <DefaultExpression>(&apos;now&apos;::text)::time with time zone</DefaultExpression>
+      <TypeId>1083</TypeId>
+    </column>
+    <column id="59" parent="27" name="information">
+      <Position>4</Position>
+      <DataType>varchar(300)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>603</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="60" parent="27" name="event_id_uindex">
+      <ObjectId>16439</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="61" parent="27" name="event_pkey">
+      <ObjectId>16437</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="27" name="event_pkey">
+      <ObjectId>16438</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>event_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="28" name="id ev">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>606</StateNumber>
+      <DefaultExpression>nextval(&apos;taxi.&quot;magazine_id ev_seq&quot;&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>taxi.&quot;magazine_id ev_seq&quot;</SequenceName>
+    </column>
+    <column id="64" parent="28" name="id cl">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>606</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="65" parent="28" name="id car">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>606</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="66" parent="28" name="magazine_id ev_uindex">
+      <ObjectId>16468</ObjectId>
+      <ColNames>id ev</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="67" parent="28" name="magazine_pkey">
+      <ObjectId>16451</ObjectId>
+      <ColNames>id ev</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="68" parent="28" name="magazine_pkey">
+      <ObjectId>16452</ObjectId>
+      <ColNames>id ev</ColNames>
+      <UnderlyingIndexName>magazine_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="69" parent="28" name="magazine_event_id_fk">
+      <ObjectId>16463</ObjectId>
+      <ColNames>id ev</ColNames>
+      <RefTableId>16431</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>event</RefTableName>
+      <RefKeyName>event_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="70" parent="28" name="magazine_client_id_fk">
+      <ObjectId>16453</ObjectId>
+      <ColNames>id cl</ColNames>
+      <RefTableId>16416</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>client</RefTableName>
+      <RefKeyName>client_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <foreign-key id="71" parent="28" name="magazine_car_id_fk">
+      <ObjectId>16458</ObjectId>
+      <ColNames>id car</ColNames>
+      <RefTableId>16423</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>car</RefTableName>
+      <RefKeyName>car_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>

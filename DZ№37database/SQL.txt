@@ -1,0 +1,37 @@
+CREATE DATABASE taxi;
+USE taxi;
+
+CREATE TABLE client(
+id int AUTO_INCREMENT PRIMARY KEY NOT NULL,
+full_name varchar(200) NOT NULL);
+
+CREATE TABLE car(
+id int AUTO_INCREMENT PRIMARY KEY NOT NULL,
+car varchar(10) NOT NULL);
+
+CREATE TABLE event(
+id int AUTO_INCREMENT PRIMARY KEY NOT NULL,
+daydate timestamp default current_date NOT NULL,
+daytime time default current_time NOT NULL,
+information varchar(300) NOT NULL);
+
+CREATE TABLE magazine(
+id_ev int PRIMARY KEY NOT NULL,
+id_cl int NOT NULL,
+id_car int NOT NULL,
+FOREIGN KEY(id_ev) REFERENCES client(id),
+FOREIGN KEY(id_ev) REFERENCES car(id),
+FOREIGN KEY(id_ev) REFERENCES event(id)
+);
+
+INSERT INTO client VALUES('IVANOV');
+INSERT INTO client VALUES('PETROV');
+INSERT INTO client VALUES('SIDOROV');
+
+INSERT INTO car VALUES('EG145');
+INSERT INTO car VALUES('TA734');
+
+INSERT INTO event VALUES('12.45.12','14.47,'cen-pash');
+
+
+

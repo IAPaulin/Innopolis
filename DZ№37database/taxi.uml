@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>148cb0d4-635c-4775-90ee-647d7384af01.SCHEMA:postgres.taxi</OriginalElement>
+  <nodes>
+    <node x="232.0" y="168.0">148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.magazine</node>
+    <node x="226.0" y="22.0">148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.car</node>
+    <node x="395.0" y="0.0">148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.event</node>
+    <node x="0.0" y="22.0">148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.magazine" target="148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.car">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.magazine" target="148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.client">
+      <point x="-45.66666666666663" y="-48.0" />
+      <point x="254.83333333333337" y="143.0" />
+      <point x="103.0" y="143.0" />
+      <point x="0.0" y="37.0" />
+    </edge>
+    <edge source="148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.magazine" target="148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.event">
+      <point x="45.666666666666686" y="-48.0" />
+      <point x="346.1666666666667" y="143.0" />
+      <point x="503.0" y="143.0" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8541996830427893" x="305.5" y="132.0" />
+  <SelectedNodes>
+    <node>148cb0d4-635c-4775-90ee-647d7384af01.TABLE:postgres.taxi.client</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
